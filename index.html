@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Projetos - João Vitor Costa Teixeira</title>
+    <meta charset="utf-8"/>
+    <meta name="João Vitor" content="website">
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        
+        .header{
+            left: 0;
+            padding-left: 36px;
+            padding-right: 30px;
+            position: fixed;
+            top: 0;
+            -webkit-transition: opacity 0.5s,padding-left .125s;
+            transition: opacity 0.5s,padding-left .125s;
+            white-space: nowrap;
+            width: 100%;
+            height: 60px;
+            z-index: 20;
+        }
+        
+        .header-center{
+            display: table;
+            min-width: 100%;
+            table-layout: fixed;
+        }
+        
+        .header-invisible{
+            color: inherit;
+        }
+        
+        .header-text{
+            font-family: Arial, Helvetica, sans-serif;
+            color:black;
+            font-size: 30px;
+            display: inline-block;
+            line-height: 1;
+            outline: none;
+            padding: 16px 12px;
+            text-decoration: none;
+            text-overflow: ellipsis;
+        }
+        
+        .header-color {
+            background-image: linear-gradient(to right,#00FFFF, #002046);
+            bottom: 0;
+            height: 100%;
+            left: 0;
+            position: absolute;
+            right: 0;
+            top: 0;
+            -webkit-transition: opacity .125s;
+            transition: opacity .125s;
+            width: 100%;
+            z-index: -10;
+        }
+
+        .header-container{
+            height: 100vh;
+            background-image: linear-gradient(to right,rgb(46,139,87), rgb(47,79,79));
+            background-repeat: no-repeat;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 0 112px;
+            justify-items: center;
+        }
+        
+        .container{
+            height: auto;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            margin: 80px 0 0 0;
+            text-align: center;
+        }
+            
+        .back{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 30px;
+        }
+
+        .back a{
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration: none;
+            color: white;
+            padding: 1rem;
+            padding-left: 100px;
+            padding-right: 100px;
+            border: 1px solid white;
+            align-items: center;
+            justify-content: center;
+            transition: .5s ease-in-out;
+            border-radius:10px;
+        }
+
+        .back a:hover{
+            border: 1px solid #002046;
+            background-color:#002046;
+            color: white;
+        }
+
+        .container_java{
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+        }
+
+        .link_java{
+            font-family: Arial, Helvetica, sans-serif;
+            background: transparent;
+            width:150px;
+            padding: 1rem;
+            margin-left: auto;
+            margin-right: auto;
+            color: white;
+            transition: .5s ease-in-out;
+            border: 1px solid white;
+            text-decoration: none;
+            align-items: center;
+            justify-content: center;
+            font-size: 16px;
+            border-radius: 10px;
+        }
+
+        .link_java:hover{
+            border: 1px solid #002046;
+            background-color:#002046;
+            color:white;
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+    <header class="header-container">
+
+        <div class="header">
+            <div class="header-center">
+                <div class="T1fmSc">
+                    <a class="header-invisible" href="#">
+                        <span class="header-text"><b>Projetos - João Teixeira</b></span>
+                    </a>
+                </div>
+            </div>
+            <div class="header-color"></div>
+        </div>
+
+
+        <div class="back">
+            <a align="center" href="https://joaoteixeiraprog.github.io/portfolio/"><b>Voltar</b></a>
+        </div>
+
+        <br>
+
+        <main class="container">    
+            <a class="container_java">
+                <h1>Projeto em JavaScript</h1>
+            </a>
+            <a href="https://joaoteixeiraprog.github.io/project_javascript/" class="link_java" align="center">Começar</a>
+            
+            <br>
+            <br>
+
+            <a class="container_java">
+                <h1>Projeto Mostrar Imagem</h1>
+            </a>
+            <a href="https://joaoteixeiraprog.github.io/mostrar_html/" class="link_java" align="center">Começar</a>,
+
+            <br>
+            <br>
+
+            <a class="container_java">
+                <h1>Projeto Formulário</h1>
+            </a>
+            <a href="https://joaoteixeiraprog.github.io/portfolio_formulario/" class="link_java" align="center">Começar</a>
+
+            <a class="container_java">
+                <h1>Projeto Calcular Equação do 2º Grau</h1>
+            </a>
+            <a href="https://joaoteixeiraprog.github.io/portfolio_equacao2/" class="link_java" align="center">Começar</a>
+        </main>
+    </header>
+</body>
+</html>
